@@ -184,6 +184,9 @@ footer {
   display: flex;
   align-self: center;
 }
+.navhide {
+  display: none;
+}
 @media only screen and (max-width: 1024px) {
   .top {
     width: 100%;
@@ -217,6 +220,8 @@ footer {
   .top {
     width: 100%;
     height: 3rem;
+    justify-content:space-around;
+    align-items: center;
   }
   .word {
     display: flex;
@@ -300,5 +305,24 @@ footer {
    padding-left: 0rem;
    padding-right: 0rem;
    height: 1.5rem;
+}
+.navhide {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.navhide a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: none;
+}
+.logo2 {
+  display: none;
 }
 }

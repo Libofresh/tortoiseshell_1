@@ -7,16 +7,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
-  background-size:cover;
-  background-position: left;
+  background: url("../pictures/glasses-bg.png");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 30rem;
   width: 100%;
 }
@@ -182,4 +183,122 @@ footer {
 .textlast {
   display: flex;
   align-self: center;
+}
+@media only screen and (max-width: 1024px) {
+  .top {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .container {
+    height: 22rem;
+    width: 100%;
+  }
+  .word h1 {
+    font-size: 1.33rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url("../pictures/glasses-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 17rem;
+    width: 100%;
+  }
+  .top {
+    width: 100%;
+    height: 3rem;
+  }
+  .word {
+    display: flex;
+    background-color: white;
+    margin-top: 9rem;
+    width: 100%;
+    height: 3rem;
+    margin-right: 0%;
+    padding: 0%;
+  }
+  .word h1 {
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+    margin: 0%;
+}
+  .content1 {
+    flex-wrap: wrap;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    width: 100%;
+  }
+  .box {
+    width: 85%;
+    height: auto;
+    margin: 0.77rem;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  .text1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    background-color: cadetblue;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .small {
+    display: flex;
+    padding-bottom: 4rem;
+    font-size: 0.77rem;
+    font-family: Helvetica;
+    margin-left: 5%;
+    margin-top: 1rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+ .textlast {
+   display: none;
+ }
+ .logolast img {
+   align-self: center;
+ }
+ .logolast img {
+   display: flex;
+   padding-left: 0rem;
+   padding-right: 0rem;
+   height: 1.5rem;
+}
 }

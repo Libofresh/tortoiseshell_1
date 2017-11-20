@@ -1,0 +1,185 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-size:cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: 3rem;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo1 img {
+  display: flex;
+  height: 1.5rem;
+  width: auto;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.logo2 {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+nav a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+}
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: white;
+  margin-top: 10rem;
+  align-self: flex-end;
+  margin-right: 5rem;
+}
+.word h1 {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  line-height: 1.2;
+}
+.content1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 5rem;
+  height: 4.5rem;
+}
+.pic1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 3.5rem;
+  height: 4.5rem;
+}
+.pic1 img {
+  display: flex;
+  width: 90%;
+  height: 90%;
+}
+.pic img {
+  display: flex;
+  width: 90%;
+  height:auto;
+}
+.underpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.underpic p {
+  display: flex;
+  padding: 0.25rem;
+}
+.text {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-left: 10%;
+}
+.big {
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.small {
+  display: flex;
+  font-family: Helvetica;
+}
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  height: 9rem;
+  width: 960px;
+}
+.last {
+  display: flex;
+}
+.logolast {
+  display: flex;
+}
+.logolast img {
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+.textlast {
+  display: flex;
+  align-self: center;
+}

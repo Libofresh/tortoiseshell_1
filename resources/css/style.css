@@ -196,6 +196,16 @@ footer {
     height: 22rem;
     width: 100%;
   }
+  .word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: white;
+    margin-top: 5rem;
+    align-self: flex-end;
+    margin-right: 2rem;
+  }
   .word h1 {
     font-size: 1.33rem;
     padding-left: 2rem;

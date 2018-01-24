@@ -173,6 +173,7 @@ strong {
 }
 .small img{
   width: 100%;
+  margin-top: 0.5rem;
 }
 footer {
   display: flex;

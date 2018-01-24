@@ -165,10 +165,14 @@ strong {
 }
 .small {
   display: flex;
+  flex-direction: column;
   font-family: Helvetica;
 }
 .small p{
   line-height: 1.5;
+}
+.small img{
+  width: 100%;
 }
 footer {
   display: flex;

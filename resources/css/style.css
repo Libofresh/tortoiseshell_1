@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: url("../pictures/glasses-bg.png");
+  background: url("../pictures/web1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,20 +64,21 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 4rem;
   background-color: white;
-  margin-top: 10rem;
+  margin-top: 7rem;
   align-self: flex-end;
-  margin-right: 5rem;
+  margin-right: 4rem;
+  opacity: 0.65;
 }
 .word h1 {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   line-height: 1.2;
 }
 .content1 {
@@ -92,7 +93,7 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 5rem;
+  width: 10rem;
   height: 8rem;
   margin: 3rem;
 }
@@ -143,11 +144,14 @@ nav a {
   width: 35%;
   margin-left: 10%;
 }
+strong {
+  font-weight: bold;
+}
 .big {
   display: flex;
   align-items: center;
   background-color: cadetblue;
-  width: 10rem;
+  width: 15rem;
   height: 2rem;
   margin-bottom: 1rem;
   font-size: 1rem;
@@ -160,6 +164,9 @@ nav a {
 .small {
   display: flex;
   font-family: Helvetica;
+}
+.small p{
+  line-height: 1.5;
 }
 footer {
   display: flex;
@@ -220,7 +227,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: url("../pictures/glasses-bg.png");
+    background: url("../pictures/web1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;

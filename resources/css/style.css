@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: url("../pictures/web1.jpg");
+  background: url("../pictures/web2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +227,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: url("../pictures/web1.jpg");
+    background: url("../pictures/web2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
